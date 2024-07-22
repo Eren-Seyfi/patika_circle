@@ -17,7 +17,7 @@ export const initialize_user = async () => {
       },
       data: {
         idempotencyKey: idempotencyKey,
-        accountType: "EDA",
+        accountType: "EOA",
         blockchains: ["MATIC-AMOY"],
       },
     };
